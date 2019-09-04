@@ -2,8 +2,9 @@
   "manifest_version": 2,
 
   "name": "Hide Unwanted",
+  "short_name": "HideUnwanted",
   "description": "Prevents user from getting distracted while using internet.",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Manav Shrivastava",
   "homepage_url": "https://github.com/manavshrivastavagit/hideunwanted",
   "icons": {
@@ -14,9 +15,7 @@
     "256": "icon256.png"
   },
   "permissions": [
-    "<all_urls>",
-    "webRequest",
-    "webRequestBlocking"
+    "activeTab"
   ],
   "default_locale": "en",  
   "content_scripts": [
